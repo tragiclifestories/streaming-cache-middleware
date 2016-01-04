@@ -1,0 +1,24 @@
+{
+  "name": "streaming-cache-middleware",
+  "version": "0.0.1",
+  "description": "Cache middleware based on streaming-cache",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover ./node_modules/jasmine-node/bin/jasmine-node ./spec --captureExceptions"
+  },
+  "author": "Andy Patterson",
+  "license": "ISC",
+  "dependencies": {
+    "dev-null": "^0.1.1",
+    "streaming-cache": "^0.3.2"
+  },
+  "engines": {
+    "node": ">= 4.0"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.1",
+    "jasmine-node": "^1.14.5",
+    "lodash": "^3.10.1",
+    "sinon": "^1.17.2"
+  }
+}
