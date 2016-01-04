@@ -7,7 +7,13 @@
     "test": "istanbul cover ./node_modules/jasmine-node/bin/jasmine-node ./spec --captureExceptions"
   },
   "author": "Andy Patterson",
-  "license": "ISC",
+  "repository": "https://github.com/andypatterson/streaming-cache-middleware",
+  "license": "BSD-2-Clause",
+  "keywords": [
+    "cache",
+    "middleware",
+    "streams"
+  ],
   "dependencies": {
     "dev-null": "^0.1.1",
     "streaming-cache": "^0.3.2"
