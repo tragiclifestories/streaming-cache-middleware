@@ -1,0 +1,8 @@
+# Git configuration
+.gitignore
+
+# npm configuration
+.npmignore
+
+# Travis configuration
+.travis.yml
