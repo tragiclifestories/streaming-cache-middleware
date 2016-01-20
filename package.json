@@ -16,7 +16,7 @@
   ],
   "dependencies": {
     "dev-null": "^0.1.1",
-    "streaming-cache": "^0.3.2"
+    "streaming-cache": "^0.4.1"
   },
   "engines": {
     "node": ">= 4.0"
