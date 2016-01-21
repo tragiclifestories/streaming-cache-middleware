@@ -1,6 +1,6 @@
 {
   "name": "streaming-cache-middleware",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Cache middleware based on streaming-cache",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
   ],
   "dependencies": {
     "dev-null": "^0.1.1",
-    "streaming-cache": "^0.3.2"
+    "streaming-cache": "^0.4.1"
   },
   "engines": {
     "node": ">= 4.0"
