@@ -1,7 +1,7 @@
-Streaming Cache Middleware
+Streaming Cache Middleware [![Build Status](https://travis-ci.org/andypatterson/streaming-cache-middleware.svg?branch=master)](https://travis-ci.org/andypatterson/streaming-cache-middleware)
 ===============
 
-Middleware for Express Nodejs web servers. Based on [streaming-cache](https://www.npmjs.com/package/streaming-cache). 
+Middleware for Express Nodejs web servers. Based on [streaming-cache](https://www.npmjs.com/package/streaming-cache).
 
 Tested with Express 4.0 and Nodejs >= 4.0
 
@@ -28,7 +28,7 @@ app.use(cacheMiddleware());
 Config
 ---
 
-The config defaults are: 
+The config defaults are:
 
 ```javascript
 
@@ -43,4 +43,4 @@ The config defaults are:
 
 ```
 
-`uncacheableRoutePrefixes` is used to short-circuit caching where it's known in advance that a route cannot be cached. 
+`uncacheableRoutePrefixes` is used to short-circuit caching where it's known in advance that a route cannot be cached.
