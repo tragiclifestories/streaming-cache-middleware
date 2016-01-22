@@ -1,6 +1,6 @@
 {
   "name": "streaming-cache-middleware",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Cache middleware based on streaming-cache",
   "main": "index.js",
   "scripts": {
