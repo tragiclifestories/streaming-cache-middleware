@@ -92,6 +92,11 @@ module.exports = function (config, log) {
             if (isETagMatch(req, metadata)) {
                 return res.status(304).end();
             }
+            
+            if (!metadata.length) {
+                logger.warn('Non-matching etags with content length 0');
+                return next();
+            }
 
             var cachedStream = cache.get(urlHash);
             if (cachedStream) {
